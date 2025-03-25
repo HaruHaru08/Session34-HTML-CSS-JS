@@ -15,8 +15,8 @@ function renderEmployees() {
 }
 
 document.getElementById("addEmployee").onclick = function () {
-  let name = document.getElementById("name").value.trim();
-  let position = document.getElementById("position").value.trim();
+  let name = document.getElementById("name").value;
+  let position = document.getElementById("position").value;
 
   if (name === "" || position === "") {
     alert("Vui lòng nhập đầy đủ thông tin!");
