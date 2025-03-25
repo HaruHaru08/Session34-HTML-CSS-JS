@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    border: 1px solid #ececec;
+    height: 50px;
+    width: 50%;
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nameInput{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.nameInput input{
+    width: 200px;
+}
+.positionInput{
+    margin-top: 15px;
+    margin-left: 40px;
+}
+.positionInput input{
+    width: 200px;
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: lightgray;
+}

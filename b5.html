@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./b5.css" />
+  </head>
+  <body>
+    <h2>Danh sách nhân viên Rikkei</h2>
+    <div class="container">
+      <div class="nameInput">
+        <label for="name">Tên nhân viên</label>
+      <input type="text" id="name" placeholder="Tên nhân viên" />
+      </div>
+      <div class="positionInput">
+        <label for="position">Chức vụ</label>
+      <input type="text" id="position" placeholder="Chức vụ" />
+      </div>
+    </div>
+    <button id="add">Thêm nhân viên</button>
+
+    <table>
+      <thead>
+        <tr>
+          <th>STT</th>
+          <th>Tên</th>
+          <th>Chức vụ</th>
+        </tr>
+      </thead>
+      <tbody id="employeeList"></tbody>
+    </table>
+    <script src="./b5.js"></script>
+  </body>
+</html>
